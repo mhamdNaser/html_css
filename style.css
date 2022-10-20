@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 header{
     padding-top: 10px;
     text-align: center;
@@ -20,10 +23,12 @@ nav{
     background-color: white;
 }
 
+
 .dropbtn {
     border: none;
     text-decoration: none;
     background-color: white;
+    border-right: 1px solid black;
     padding: 12px 12px;
     color: rgb(23, 70, 162);
 }
