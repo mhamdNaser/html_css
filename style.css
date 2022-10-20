@@ -60,11 +60,12 @@ a:hover , .dropdown:hover .dropbtn { background-color: rgb(255, 115, 29);}
     padding: 20px;
 }
 
-h3{
-    padding-left: 10px;
-}
-
 span{
     font-size: large;
     font-weight: 500;
 }
+
+.content{
+    color: white !important; /* have internal style but this important*/
+}
+
