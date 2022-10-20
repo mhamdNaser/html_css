@@ -12,18 +12,16 @@
                 box-sizing: border-box;
             }
             .container7{
-                width:280px;
+                width:500px;
                 display: flex;
                 justify-content: flex-start;
             }
             label{
-                width: 100px;
-                margin: 0 auto;
+                width: 200px;
                 text-align: left;
             }
             input , select{
-                width: 160px;
-                margin: 0 auto;
+                width: 300px;
                 text-align: left;
             }
         </style>
@@ -51,43 +49,42 @@
             </nav>
         </header>
         <br>
-        <main style=" margin: 0 auto; width: 480px; padding: 50px; border: 1px solid black;">
+        <main style=" margin: 0 auto; width: 480px; padding: 50px">
             <div class="container7">
-                <label for="">Name : </label>
+                <label for="">Enter Your Name : </label>
                 <input type="text" name="" id="">
             </div><br>
             <div class="container7">
-                <label for="">Address : </label>
+                <label for="">Enter Your Department : </label>
                 <input type="text" name="" id="">
             </div><br>
             <div class="container7">
-                <label for="">City : </label>
-                <input type="text" name="" id="">
+                <label for="">About Yourself : </label>
+                <textarea name="" id="" cols="40" rows="10"></textarea>
             </div><br>
             <div class="container7">
-                <label for="">State : </label>
-                <input type="text" name="" id=""  style="width:105px;margin-right: 60px;">
+                <label for="">Exercise At Home : </label>
+                <input type="radio" name="year" id="" style="width: auto;">yes &nbsp;
+                <input type="radio" name="year" id="" style="width: auto;">no 
             </div><br>
             <div class="container7">
-                <label for="">Zip : </label>
-                <input type="number" name="" id="" style="width:105px;margin-right: 60px;">
+                <label for="">Favorite Topic : </label>
+                <input type="checkbox" name="" id="" style="width: auto;">Topic1
+                <input type="checkbox" name="" id="" style="width: auto;">Topic2
+                <input type="checkbox" name="" id="" style="width: auto;">Topic3
+                <input type="checkbox" name="" id="" style="width: auto;">Topic4
             </div><br>
             <div class="container7">
-                <label for="">Magazine : </label>
+                <label for="">Your Favorite Movies : </label>
                 <select name="Name" id="" style="width:105px;margin-right: 60px;">
-                    <option value="muhammed">muhammed</option>
-                    <option value="alaa">alaa</option>
-                    <option value="naser">naser</option>
-                    <option value="omar">omar</option>
+                    <option value="muhammed">comedy</option>
+                    <option value="alaa">action</option>
+                    <option value="naser">drama</option>
+                    <option value="omar">history</option>
                 </select>
             </div><br>
             <div class="container7">
-                <label for="">Subscription : </label>
-                <input type="radio" name="year" id="" style="width: auto;">one years 
-                <input type="radio" name="year" id="" style="width: auto;">two years 
-            </div><br>
-            <div class="container7">
-                <input type="button" value="Send Your Order"> 
+                <input type="button" value="Submit Form" style="width: auto;"> 
             </div><br>
         </main>
     </body>
