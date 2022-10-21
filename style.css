@@ -57,7 +57,7 @@ a:hover , .dropdown:hover .dropbtn { background-color: rgb(255, 115, 29);}
 
 .container{
     margin: 0 auto;
-    width: 1080px;
+    width: 90%;
     padding: 20px;
 }
 
