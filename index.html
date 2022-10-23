@@ -12,18 +12,31 @@
                 margin: 0 auto;
                 text-align: center;
                 padding: 100px;
+                background-color: rgb(255, 247, 233);
             }
-            .content{
-                margin: 0 auto;
-                width: 50%;
-                padding: 10%;
-                color: wheat;
+            div{
+                padding: 15%;
+            }
+
+            fieldset{
+                border: 8px solid rgb(95, 157, 247);
+                background-color: white;
+                padding: 2%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            legend{
+                border: 3px solid rgb(95, 157, 247);
+                padding: 1% 2%;
+                font-weight: bolder;
+                color: rgb(95, 157, 247);
+                background-color: white;
+            }
+            main a{
+                color: white;
                 background-color: rgb(255, 115, 29);
-                border-radius: 20px;
-            }
-            .list-title{
-                color: black;
-                border-bottom: 1px solid gainsboro;
+                padding: 1% 2%;
             }
             @media only screen and (max-width: 600px) {
                 h1{
@@ -42,65 +55,82 @@
             <h1>Task Solution</h1>
             <nav>
                 <a class="home" href="./index.html"><img src="./title_icon.png" alt="page logo" width="30" height="30"></a>
-                <div class="dropdown">
-                    <button class="dropbtn">1</button>
-                    <div class="dropdown-content">
-                        <p class="list-title">SU_16_10</p>
-                        <a href="./sunday_16_10/task1.html">Task 1</a>
-                        <a href="./sunday_16_10/task2.html">Task 2</a>
-                        <a href="./sunday_16_10/task3.html">Task 3</a>
-                        <a href="./sunday_16_10/task4.html">Task 4</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">2</button>
-                    <div class="dropdown-content">
-                        <p class="list-title">MO_17_10</p>
-                        <a href="./monday_17_10/task1.html">Task 1</a>
-                        <a href="./monday_17_10/task2.html">Task 2</a>
-                        <a href="./monday_17_10/task3.html">Task 3</a>
-                        <a href="./monday_17_10/task4.html">Task 4</a>
-                        <a href="./monday_17_10/task5.html">Task 5</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">3</button>
-                    <div class="dropdown-content">
-                        <p class="list-title">Tu_19_10</p>
-                        <a href="./tusday_18_10/task1.html">Task 1</a>
-                        <a href="./tusday_18_10/task2.html">Task 2</a>
-                        <a href="./tusday_18_10/task3.html">Task 3</a>
-                        <a href="./tusday_18_10/task4.html">Task 4</a>
-                        <a href="./tusday_18_10/task5.html">Task 5</a>
-                        <a href="./tusday_18_10/task6.html">Task 6</a>
-                        <a href="./tusday_18_10/task7.html">Task 7</a>
-                        <a href="./tusday_18_10/task8.html">Task 8</a>
-                        <a href="./tusday_18_10/task9.html">Task 9</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">4</button>
-                    <div class="dropdown-content">
-                        <p class="list-title">th_23_10</p>
-                        <a href="./th_20_10/task1.html">Task 1</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">5</button>
-                    <div class="dropdown-content">
-                        <p class="list-title">sun_20_10</p>
-                        <a href="./th_20_10/task1.html">Task 1</a>
-                        <a href="./th_20_10/task2.html">Task 2</a>
-                        <a href="./th_20_10/task3.html">Task 3</a>
+                <div class="dropdown" style="padding: 0;">
+                    <button class="dropbtn">Day & Date Task</button>
+                    <div class="dropdown-content" style="padding: 0;">
+                        <a href="#SU_16_10">SU_16_10</a>
+                        <a href="#MO_17_10">MO_17_10</a>
+                        <a href="#Tu_18_10">Tu_18_10</a>
+                        <a href="#th_20_10">th_20_10</a>
+                        <a href="#sun_20_10">sun_20_10</a>
+                        
                     </div>
                 </div>
             </nav>
         </header>
         <main>
-            <h1 class="content">
-                ORANGE COHORT 2
-                <p style="font-size: 18px; font-weight: lighter;">MY FIRST TEST IN HTML & CSS</p>
-            </h1>
+            <div id="SU_16_10">
+                <fieldset>
+                    <legend>SU_16_10</legend>
+                    <a href="./sunday_16_10/task1.html">Task 1</a>
+                    <a href="./sunday_16_10/task2.html">Task 2</a>
+                    <a href="./sunday_16_10/task3.html">Task 3</a>
+                    <a href="./sunday_16_10/task4.html">Task 4</a>
+                </fieldset>
+            </div>
+            <div id="MO_17_10">
+                <fieldset>
+                    <legend>MO_17_10</legend>
+                    <a href="./monday_17_10/task1.html">Task 1</a>
+                    <a href="./monday_17_10/task2.html">Task 2</a>
+                    <a href="./monday_17_10/task3.html">Task 3</a>
+                    <a href="./monday_17_10/task4.html">Task 4</a>
+                    <a href="./monday_17_10/task5.html">Task 5</a>
+                </fieldset>
+            </div>
+            <div id="Tu_18_10">
+                <fieldset>
+                    <legend>Tu_18_10</legend>
+                    <a href="./tusday_18_10/task1.html">Task 1</a>
+                    <a href="./tusday_18_10/task2.html">Task 2</a>
+                    <a href="./tusday_18_10/task3.html">Task 3</a>
+                    <a href="./tusday_18_10/task4.html">Task 4</a>
+                    <a href="./tusday_18_10/task5.html">Task 5</a>
+                    <a href="./tusday_18_10/task6.html">Task 6</a>
+                    <a href="./tusday_18_10/task7.html">Task 7</a>
+                    <a href="./tusday_18_10/task8.html">Task 8</a>
+                    <a href="./tusday_18_10/task9.html">Task 9</a>
+                </fieldset>
+            </div>
+            <div id="th_20_10">
+                <fieldset>
+                    <legend>th_20_10</legend>
+                    <a href="./th_20_10/task1.html">Task 1</a>
+                    <a href="./th_20_10/task2.html">Task 2</a>
+                    <a href="./th_20_10/task3.html">Task 3</a>
+                </fieldset>
+            </div>
+            <div id="sun_20_10">
+                <fieldset>
+                    <legend>sun_20_10</legend>
+                    <a href="./Sun_23_10/test.html">Test</a>
+                </fieldset>
+            </div>
+            <div id="">
+                <fieldset>
+                    <legend>sun_20_10</legend>
+                </fieldset>
+            </div>
+            <div id="">
+                <fieldset>
+                    <legend>sun_20_10</legend>
+                </fieldset>
+            </div>
+            <div id="">
+                <fieldset>
+                    <legend>sun_20_10</legend>
+                </fieldset>
+            </div>
         </main>
     </body>
 </html>
