@@ -17,7 +17,7 @@
             .box-sizing{
                 margin: 0 auto;
                 display: grid;
-                gap: 4% 1%;
+                gap: 10% 1%;
                 grid-template-columns: auto auto auto auto auto;
             }
             
@@ -33,14 +33,33 @@
             .flex-container{
                 display: flex;
                 justify-content: space-between;
-                width: 600px;
+                width: 960px;
             }
 
             .flex-container div{
-                width: 100px;
+                width: 120px;
                 margin: 2px 2px;
                 padding: 10px;
                 background-color: rgb(255, 115, 29);
+            }
+
+            @media only screen and (max-width: 600px) {
+
+                .flex-container{
+                    width: 300px;
+                }
+
+                .flex-container div{
+                    width: 40px;
+                    margin: 2px 1px;
+                    padding: 10px;
+                    background-color: rgb(255, 115, 29);
+                }
+
+                .flex-container div:nth-of-type(2n+1){
+                    visibility: hidden;
+                    width: 0px;
+                }
             }
 
         </style>
@@ -100,9 +119,21 @@
                     <div class="item5">5</div>
                     <div class="item6">6</div>
                     <div class="item7">7</div>
-                    <div class="item8">8</div>
-                    <div class="item7" style="flex-shrink: 3;">9</div>
-                    <div class="item8">10</div>
+                    <div class="item8" style="flex-shrink: 2;">8</div>
+                    <div class="item9">9</div>
+                    <div class="item10">10</div>
+                    <div class="item11">11</div>
+                </div>
+            </div>
+            <div class="tpoic2">
+                <h1 style="text-align: left;">Flex Container</h1>
+                <div class="flex-container">
+                    <div class="item1">1</div>
+                    <div class="item2">2</div>
+                    <div class="item3">3</div>
+                    <div class="item4" style="flex-grow: 2;">4</div>
+                    <div class="item5">5</div>
+                    <div class="item6">6</div>
                 </div>
             </div>
         </main>
