@@ -8,34 +8,41 @@
         <link href="../style.css" rel="stylesheet">
         <link rel="shortcut icon" href="../title_icon.png" type="image/x-icon">
         <style>
+            .tpoic1, .tpoic2{
+                padding: 5%;
+                width: 80%;
+                margin: 0 auto;
+            }
+
             .box-sizing{
                 margin: 0 auto;
+                display: grid;
+                gap: 4% 1%;
+                grid-template-columns: auto auto auto auto auto;
             }
-            .div1{
-                margin: 0 auto;
-                height: 20%;
-                width: 50%;
-                padding: 5%;
-                border: 2px solid red;
-                box-shadow: 0px 0px 5px 5px blue inset;
+            
+            .box-sizing div{
+                padding: 1%;
+                background-color: rgb(255, 115, 29);
             }
-            .div2{
-                margin: 0 auto;
-                height: 20%;
-                width: 50%;
-                padding: 5%;
-                border: 2px solid red;
-                box-shadow: 0px 0px 5px 5px blue;
-                box-sizing: border-box;
+
+            .box-sizing .item1{
+                grid-column: 1 / 6;
             }
-            .div3{
-                margin: 0 auto;
-                height: 20%;
-                width: 50%;
-                padding: 5%;
-                border: 2px solid red;
-                box-sizing: content-box;
+
+            .flex-container{
+                display: flex;
+                justify-content: space-between;
+                width: 600px;
             }
+
+            .flex-container div{
+                width: 100px;
+                margin: 2px 2px;
+                padding: 10px;
+                background-color: rgb(255, 115, 29);
+            }
+
         </style>
         <title>Test</title>
     </head>
@@ -53,8 +60,50 @@
             </nav>
         </header>
         <main class="container" style="text-align: center;">
-            <div class="box-sizing">
-                hiiiiiiiiiiiiiiiiii
+            <div class="tpoic1">
+                <h1 style="text-align: left;">Grid Style</h1>
+                <div class="box-sizing">
+                    <div class="item1">1</div>
+                    <div class="item2">2</div>
+                    <div class="item3">3</div>
+                    <div class="item4">4</div>
+                    <div class="item5">5</div>
+                    <div class="item6">6</div>
+                    <div class="item7">7</div>
+                    <div class="item8">8</div>
+                    <div class="item9">9</div>
+                    <div class="item10">10</div>
+                    <div class="item11">11</div>
+                    <div class="item12">12</div>
+                    <div class="item13">13</div>
+                    <div class="item14">14</div>
+                    <div class="item15">15</div>
+                    <div class="item16">16</div>
+                    <div class="item17">17</div>
+                    <div class="item18">18</div>
+                    <div class="item19">19</div>
+                    <div class="item20">20</div>
+                    <div class="item21">21</div>
+                    <div class="item22">22</div>
+                    <div class="item23">23</div>
+                    <div class="item24">24</div>
+                    <div class="item25">25</div>
+                </div>
+            </div>
+            <div class="tpoic2">
+                <h1 style="text-align: left;">Flex Container</h1>
+                <div class="flex-container">
+                    <div class="item1">1</div>
+                    <div class="item2">2</div>
+                    <div class="item3">3</div>
+                    <div class="item4">4</div>
+                    <div class="item5">5</div>
+                    <div class="item6">6</div>
+                    <div class="item7">7</div>
+                    <div class="item8">8</div>
+                    <div class="item7" style="flex-shrink: 3;">9</div>
+                    <div class="item8">10</div>
+                </div>
             </div>
         </main>
     </body>
