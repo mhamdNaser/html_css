@@ -60,7 +60,7 @@ a:hover , .dropdown:hover .dropbtn { background-color: rgb(255, 115, 29);}
 .container{
     margin: 0 auto;
     width: 80%;
-    height: 960px;
+    height: 600px;
     padding: 10% 10%;
 }
 
@@ -76,6 +76,7 @@ span{
 @media only screen and (max-width: 600px) {
 
     .container{
+        height: 360px;
         padding: 30% 10%;
     }
     
