@@ -54,8 +54,8 @@ nav{
     font-size: larger;
     height:"72px";
     display: flex;
-    flex-direction: row;
-    padding: 12%;
+    flex-direction: row-reverse;
+    padding: 12% 0;
 }
 
 .left-nav p{
