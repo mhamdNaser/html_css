@@ -8,23 +8,21 @@
         <link href="../style.css" rel="stylesheet">
         <link rel="shortcut icon" href="../title_icon.png" type="image/x-icon">
         <style>
-            .tpoic1{
-                padding: 5%;
+            main{
+                margin-top: 9%;
+                height: 960px;
+                display: flex;
                 width: 100%;
-                margin: 0 auto;
-            }
+                border: 8px solid darkgoldenrod;
 
-            .box-sizing{
-                margin: 0 auto;
-                display: grid;
-                gap: 10% 1%;
-                grid-template-columns: auto auto auto auto;
             }
             
-            .box-sizing div{
-                padding: 7% 5%;
-                font-size: 18px;
-                background-color: yellow;
+            main div{
+                flex-grow: 1;
+                padding: 10px;
+                color: white;
+                font-size: 36px;
+                background-color: rgb(255, 115, 29);
             }
 
         </style>
@@ -46,20 +44,16 @@
                 </div>
             </nav>
         </header>
-        <main class="container" style="text-align: center;">
-            <div class="tpoic1">
-                <h1 style="text-align: left;">What Do you Think !</h1>
-                <div class="box-sizing">
-                    <div class="item1">1</div>
-                    <div class="item2">2</div>
-                    <div class="item3">3</div>
-                    <div class="item4">4</div>
-                    <div class="item5">5</div>
-                    <div class="item6">6</div>
-                    <div class="item7">7</div>
-                    <div class="item8">8</div>
-                </div>
-            </div>
+        <main class="grid" style="text-align: center;">
+            <div class="item1" style="background-color: green;">1</div>
+            <div class="item2" style="background-color: yellow;">2</div>
+            <div class="item3" style="background-color: darkviolet">3</div>
+            <div class="item4" style="background-color: gray">4</div>
+            <div class="item5" style="background-color: blue;">5</div>
+            <div class="item6" style="background-color: orange;">6</div>
+            <div class="item7" style="background-color: pink;">7</div>
+            <div class="item8" style="background-color: red;">8</div>
+            <div class="item9" style="background-color: darkred;">9</div>
         </main>
     </body>
 </html>
