@@ -155,24 +155,25 @@ strong{
 }
 
 .box1{
-    height: 80px;
+    height: 70px;
     background-color: black;
     grid-column: 1 / span 3;
 }
 
 .box2{
-    height: 300px;
+    height: 280px;
     background-color: orange;
     grid-column: 1 / span 2;
 }
 
 .box3{
-    height: 300px;
+    height: 280px;
     background-color: green;
 }
 
 .box4{
-    height: 120px;
+    height: 140px;
     background-color: blue;
     grid-column: 1 / span 3;
 }
+
