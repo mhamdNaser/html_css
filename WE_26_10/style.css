@@ -60,16 +60,73 @@ a:hover , .dropdown:hover .dropbtn { background-color: rgb(255, 115, 29);}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-main{
-    margin-top: 150px;
+.border{
+    margin-top: 100px;
+    padding: 50px;
 }
 
-video{
-    height: 300px;
-    width: 300px;
+.one{
+    margin: 0 50px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 30px;
+    background-color: pink;
+    border: 5px solid cornflowerblue;
 }
 
-iframe{
-    height: 300px;
-    width: 300px;
+.two{
+    margin: 10px 0;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: cyan;
+    border: 5px solid darkmagenta;
+}
+
+.three{
+    float: right;
+    width: 40%;
+    padding: 50px;
+    margin: 100px 0;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: burlywood;
+    border: 5px solid brown;
+}
+
+.meddel{
+    width: 800px;
+    padding: 10px;
+    margin: 10% auto;
+    background-color: lightgray;
+}
+
+.insi{
+    padding: 10px;
+    background-color: white;
+}
+
+.first{
+    margin: 10px auto;
+    font-weight: bolder;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.second{
+    margin: 10px auto;
+    font-weight: bolder;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.thrird{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bolder;
+    background-color: aqua;
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
 }
