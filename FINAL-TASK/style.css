@@ -60,9 +60,16 @@ h1{
     font-weight: bolder;
 }
 
+h6{
+    padding-bottom: 2%;
+    font-size: 110%;
+    color: white;
+}
+
 h3{
     color: black;
     font-size: 110%;
+    padding: 4% 0 4% 0;
 }
 
 h4{
@@ -178,12 +185,12 @@ button{
 }
 
 .aboutme{
-    padding: 10% 0;
-    flex: 40%;
+    padding: 15% 0;
+    flex: 50%;
 }
 
 .aboutme2{
-    flex: 60%;
+    flex: 50%;
 }
 
 .sec2-container img{
@@ -203,17 +210,45 @@ button{
 
 .skills div{
     text-align: left;
-    padding: 15% 0 10% 10%;
+    padding: 15% 0 25% 10%;
     background-color: white;
     border-radius: 10%;
+    font-size: 100%;
 }
 
 .skills i{
-    font-size: 350%;
+    margin-top: 15%;
+    font-size: 280%;
 }
 
-.skills a{
-    font-size: 80%;
+.lists-container{
+    background-color: #FCA61B;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+
+.lists-container p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2% 0 4% 0;
+}
+
+.list-row{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.list-row ul{
+    flex: 30%;
+}
+
+li{
+    font-weight: 100;
+    list-style: none;
 }
 
 @media screen and (max-width: 690px) {
